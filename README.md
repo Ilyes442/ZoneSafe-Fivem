@@ -26,12 +26,6 @@ Assurez-vous que ESX Legacy est bien installé sur votre serveur.
 
 Configurez les coordonnées et la taille de la SafeZone dans le fichier cl_zonesafe.lua :
 
-local zones = {
-	{ ['x'] = 225.1851, ['y'] = -800.8318, ['z'] = 30.63163 }, -- Parking Central
-	{ ['x'] = 438.78, ['y'] = -986.67, ['z'] = 30.72 }, -- Comico
-	{ ['x'] = -1867.28, ['y'] = -352.62, ['z'] = 58.03 }, -- EMS
-}
-
 Utilisation
 Lorsque les joueurs entrent dans la SafeZone, ils recevront une notification et seront protégés.
 À la sortie de la SafeZone, ils perdront cette protection.
