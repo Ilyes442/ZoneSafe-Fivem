@@ -33,3 +33,8 @@ L'interface NUI affiche dynamiquement l'état du joueur par rapport à la zone d
 Crédits
 Script développé par Ilyes.
 Basé sur le framework ESX Legacy et utilisant NUI pour une interface utilisateur moderne.
+
+
+
+![{D65B594B-7DD7-4D3B-8ACF-7723B1F032DA}](https://github.com/user-attachments/assets/3d610efd-c717-47b3-a341-eb3da8d1a95f)
+
