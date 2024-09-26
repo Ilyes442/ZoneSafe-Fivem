@@ -1,0 +1,68 @@
+@font-face {
+	font-family: 'TT Lakes Neue Compressed';
+	src: url('../html/TTLakesNeueComp-BoldIt.ttf');
+}
+
+.Background {
+    width: 5vh;
+    height: 5vh;
+    color: rgba(0,255,51,0.81);
+    position: absolute;
+    left:45.7%;
+    top: -10%;
+    -webkit-box-shadow:0px 0px 160px 128px rgba(0,255,51,0.795);
+    -moz-box-shadow: 0px 0px 170px 128px rgba(0,255,51,0.795);
+    box-shadow: 0px 0px 170px 128px rgba(0,255,51,0.795);
+    animation: slideDown 2s forwards;
+}
+
+.Background.hide {
+    animation: slideUp 2s forwards;
+}
+
+.Container h1 {
+    font-family: 'TT Lakes Neue Compressed', sans-serif;
+    font-weight: 700;
+    font-size: 1.9vw;
+    color: white;
+    position: absolute;
+    right: 49%;
+    bottom: 92vh;
+    text-shadow: 0px 1px 4px #000000;
+    animation: slideDown 2s forwards;
+}
+
+.Container h1.hide {
+    animation: slideUp 2s forwards;
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+.Container h2 {
+    color: white;
+    text-shadow: 0px 1px 4px #000000;
+    position: absolute;
+    right:50.5%;
+    top: 48px;
+    animation: slideDown 2s forwards;
+}
+
+.green {
+    color: #28c912;
+}
