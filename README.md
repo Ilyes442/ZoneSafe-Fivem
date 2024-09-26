@@ -16,7 +16,7 @@ Clonez ou téléchargez ce dépôt dans votre dossier resources.
 
 bash
 Copier le code
-git clone https://github.com/Ilyes442/ZoneSafe.git
+git clone https://github.com/Ilyes442/ZoneSafe-Fivem.git
 Ajoutez le dossier du script dans votre server.cfg :
 
 bash
